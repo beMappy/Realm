@@ -1,7 +1,7 @@
 # coding: utf-8
 Pod::Spec.new do |s|
   s.name                    = 'XCRealm'
-  version                   = '10.39.1-d2'
+  version                   = '10.39.1-d3'
   s.version                 = version
   s.cocoapods_version       = '>= 1.10'
   s.summary                 = 'Realm is a modern data framework & database for iOS, macOS, tvOS & watchOS.'
@@ -22,7 +22,6 @@ Pod::Spec.new do |s|
   s.frameworks              = 'Security'
   s.vendored_frameworks     = 'Realm.xcframework'
 
-  s.ios.deployment_target   = '9.0'
-  s.osx.deployment_target   = '10.9'
+  s.ios.deployment_target   = '11.0'
   
 end
